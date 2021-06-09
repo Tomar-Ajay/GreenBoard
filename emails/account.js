@@ -1,6 +1,7 @@
 const sgMail = require('@sendgrid/mail')
 
 const key = 'xyz'  // set your key
+
 sgMail.setApiKey(key)
 
 const sendInvitationEmail = (email, name) => {
